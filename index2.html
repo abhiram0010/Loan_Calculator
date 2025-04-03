@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="loan">Interest Calculator</h1>
+      <div>
+      <h3>Loan Amount(In Rupees)</h3>
+      <input
+        type="number"
+        id="loan_amount"
+        class="middle"
+        placeholder="Enter Loan Amount"
+        required
+      />
+      <h3>Interest Rate(%)</h3>
+      <input
+        type="number"
+        name="Interest"
+        id="Interest"
+        placeholder="enter rate of interest"
+        class="middle"
+        required
+      />
+      <h3>Months to pay</h3>
+      <input
+        type="number"
+        id="months"
+        class="middle"
+        placeholder="Enter number of months"
+        required
+      /><br />
+      <br />
+      <br />
+      <button id="submit" class="middle">submit</button>
+      <p
+        id="result"
+        style="font-size: 1.2rem; color: rgb(189, 28, 58); font-weight: bold"
+      ></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
